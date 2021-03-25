@@ -1,0 +1,9 @@
+langage: java
+
+cache:
+  directories:
+    - $HOME/.m2
+    
+script:
+  - echo "test compilation"
+  - mvn clean package
